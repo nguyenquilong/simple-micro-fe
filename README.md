@@ -5,7 +5,7 @@ Main page : http://localhost:3000
 Child page: http://localhost:3001
 
 Config webpack: 
-`
+```
 new ModuleFederationPlugin({
       name: "home",
       filename: "remoteEntry.js",
@@ -27,7 +27,7 @@ new ModuleFederationPlugin({
           requiredVersion: deps["react-dom"],
         },
       },
-    }),`
+    }),```
     
     Đoạn code trên đang sử dụng plugin ModuleFederationPlugin trong webpack để chia sẻ các module giữa các ứng dụng web. Plugin này được sử dụng để kết nối các ứng dụng web được phát triển độc lập thành một hệ thống lớn hơn, mà các ứng dụng này có thể chia sẻ các module với nhau.
 
