@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "node-pubsub": "^0.1.0"
+  }
+}
