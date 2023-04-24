@@ -6,7 +6,7 @@ import ShareContent from 'child1/ShareContent'
 export default function HomeContent() {
   
   // const [data, setData] = useState('aaaaaaaaaaaa')
-  const message = 'aaaaaaaaaaaa'
+  const message = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
   useEffect(() => {
   }, []);
 
