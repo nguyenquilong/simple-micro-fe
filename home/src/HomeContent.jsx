@@ -9,7 +9,9 @@ export default function HomeContent() {
 
   return (
     <div className="grid grid-cols-4 gap-5">
-        Home content  <ShareContent />
+        Nội dung Home content 
+        <p>import ShareContent from 'child1/ShareContent'</p>
+         <p><ShareContent /></p>
     </div>
   );
 }
